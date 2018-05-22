@@ -1,0 +1,45 @@
+{
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.5",
+    "@storybook/addon-knobs": "^3.4.5",
+    "@storybook/addon-links": "^3.4.5",
+    "@storybook/addon-options": "^3.4.5",
+    "@storybook/addons": "^3.4.5",
+    "@storybook/vue": "^3.4.5",
+    "babel-core": "6.26.0",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^4.19.1",
+    "eslint-config-und": "^0.0.2",
+    "storybook-readme": "^3.3.0",
+    "vue": "2.5.16",
+    "vue-loader": "14.2.1",
+    "vue-template-compiler": "2.5.16",
+    "vue-types": "^1.2.3"
+  },
+  "name": "library-components-vue",
+  "description": "library components vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjhoncv/library-components-vue.git"
+  },
+  "keywords": [
+    "library",
+    "componentes",
+    "vue",
+    "vue"
+  ],
+  "author": "Jhonnatan Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjhoncv/library-components-vue/issues"
+  },
+  "homepage": "https://github.com/jjhoncv/library-components-vue#readme",
+  "dependencies": {}
+}
