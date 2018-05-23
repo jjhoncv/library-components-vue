@@ -23,6 +23,9 @@ test:
 	make docker NODE_COMMAND="yarn test --ci --testResultsProcessor='jest-junit'" \
 	DOCKER_ENVIRONMENTS="-e JEST_JUNIT_OUTPUT=${JEST_JUNIT_OUTPUT}"
 
+sync-github:
+	git subtree push --prefix .out origin library
+
 sync-cds:
 	aws s3 sync --acl public-read --cache-control max-age=3600,public ${AWS_SRC_INPUT} ${AWS_SRC_OUTPUT} --region ${AWS_REGION}
 
