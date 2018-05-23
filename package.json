@@ -36,7 +36,7 @@
     "build:json": "node ./scripts",
     "build": "run-s build:*",
     "dist:publish": "git subtree push --prefix dist origin library",
-    "deploy": "build-storybook -c .storybook -o .out",
+    "deploy": "build-storybook -c .storybook -o ./docs",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "precommit": "bash ./pre-commit.sh"
   },
