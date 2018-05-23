@@ -24,7 +24,7 @@ test:
 	DOCKER_ENVIRONMENTS="-e JEST_JUNIT_OUTPUT=${JEST_JUNIT_OUTPUT}"
 
 sync-github:
-	git subtree push --prefix .out origin master
+	git subtree push --prefix docs origin master
 
 sync-cds:
 	aws s3 sync --acl public-read --cache-control max-age=3600,public ${AWS_SRC_INPUT} ${AWS_SRC_OUTPUT} --region ${AWS_REGION}
