@@ -1,5 +1,5 @@
 <template>
-    <a :class="className" class="btn">
+    <a :class="type" class="btn">
         <slot></slot>
     </a>
 </template>
@@ -10,13 +10,13 @@ import VueTypes from "vue-types";
 const Button = {
   name: "Button",
   props: {
-    className: VueTypes.oneOf([
-      "btn-primary",
-      "btn-default",
-      "btn-danger",
-      "btn-info",
-      "btn-success",
-      "btn-warning"
+    type: VueTypes.oneOf([
+      "primary",
+      "default",
+      "danger",
+      "info",
+      "success",
+      "warning"
     ])
   }
 };
@@ -38,37 +38,37 @@ export default Button;
   font-size: 12px;
   cursor: pointer;
 }
-.btn-primary {
+.btn.primary {
   color: white;
   background: #409eff;
   border: 1px solid #409eff;
 }
 
-.btn-success {
+.btn.success {
   color: white;
   background: #67c23a;
   border: 1px solid #67c23a;
 }
 
-.btn-default {
+.btn.default {
   color: #606266;
   background: #fff;
   border: 1px solid #dcdfe6;
 }
 
-.btn-info {
+.btn.info {
   color: white;
   background: #909399;
   border: 1px solid #909399;
 }
 
-.btn-warning {
+.btn.warning {
   color: white;
   background: #e6a23c;
   border: 1px solid #e6a23c;
 }
 
-.btn-danger {
+.btn.danger {
   color: white;
   background: #f56c6c;
   border: 1px solid #f56c6c;

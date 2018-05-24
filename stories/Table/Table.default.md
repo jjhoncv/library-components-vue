@@ -1,7 +1,7 @@
 # Table
 
 ```js
-import { Table } from "library-components/src/Table.vue";
+import { Table } from "library-components-vue";
 ```
 
 ```html

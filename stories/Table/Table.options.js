@@ -1,6 +1,5 @@
-import Table from './../../src/components/Table.vue';
-import Button from './../../src/components/Button.vue';
-import { array, text, date } from '@storybook/addon-knobs';
+import Table from './../../src/components/Table';
+import Button from './../../src/components/Button/Button.vue';
 import { withDocs } from 'storybook-readme';
 import * as readme from './Table.options.md';
 
@@ -47,8 +46,8 @@ const Wrapper = `<Table :data="data">
                       <div class="table-column">{{row.age}}</div>
                       <div class="table-column">{{row.city}}</div>
                       <div class="table-column">
-                          <Button className="btn-primary">Edit</Button>
-                          <Button className="btn-danger">Delete</Button>
+                          <Button type="primary">Edit</Button>
+                          <Button type="danger">Delete</Button>
                       </div>
                   </template>
                   </Table>`;
