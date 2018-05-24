@@ -1,8 +1,7 @@
 # Table
 
 ```js
-import { Table } from "library-components-vue";
-import { Button } from "library-components-vue";
+import { Table, Button } from "library-components-vue";
 ```
 
 ```html

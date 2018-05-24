@@ -4,7 +4,7 @@ Puedes ver la librería en la siguiente dirección https://jjhoncv.github.io/lib
 
 > Nota: Asegúrate de haber hecho `yarn install` ;)
 
-Para modificar la librerÃ­a:
+Para modificar la librería:
 
 1.  Realiza tus cambios: creación de componentes y tests. Para correr los test ejecuta:
 
