@@ -3,7 +3,7 @@ import ButtonDefault from './Button.default';
 
 import { withKnobs } from '@storybook/addon-knobs';
 
-console.log('here!');
+console.log('here!xxx');
 
 storiesOf('Buttons', module)
   .addDecorator(withKnobs)
