@@ -37,7 +37,8 @@
     "build:assets": "cpx \"./src/**/*.{png,jpg,gif,scss,js}\" ./dist",
     "build:json": "node ./scripts",
     "build": "run-s build:*",
-    "dist:publish": "git subtree push --prefix dist origin library",
+    "dist:publish":
+      "git push origin :library && git subtree push --prefix dist origin library",
     "deploy": "build-storybook -c .storybook -o ./docs",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "precommit": "bash ./pre-commit.sh"
@@ -46,12 +47,7 @@
     "type": "git",
     "url": "git+https://github.com/jjhoncv/library-components-vue.git"
   },
-  "keywords": [
-    "library",
-    "componentes",
-    "vue",
-    "vue"
-  ],
+  "keywords": ["library", "componentes", "vue", "vue"],
   "author": "Jhonnatan Castro",
   "license": "ISC",
   "bugs": {

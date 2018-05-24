@@ -3,14 +3,17 @@ const utils = require('./utils');
 
 const path = require('path');
 const pathComponents = __dirname + './../../src/**/*.js';
+// const entry = utils(glob.sync(pathComponents))
+const entry = __dirname + './../../src/components/index.js';
 // const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: utils(glob.sync(pathComponents)),
+  entry: entry,
   output: {
     path: path.resolve(__dirname, './../../dist'),
     filename: '[name].js',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    library: 'library-components-vue'
   },
   module: {
     rules: [
