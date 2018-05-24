@@ -24,11 +24,20 @@ yarn storybook
 yarn build
 ```
 
-4.  Realiza tu Pull Request.
+4.  Realiza tu Pull Request (dev a prod).
 5.  Una vez aprobado y mergeado tu Pull Request ejecuta los siguientes comandos:
 
 ```
-git checkout master
-git pull origin master
-yarn dist:publish
+git checkout prod
+git pull origin prod
+yarn dist:publish-library
+```
+
+6.  Para ver tu cambio en la web ejecuta los siguiente comandos:
+
+```
+git checkout prod
+git pull origin prod
+yarn deploy
+yarn dist:publish-web
 ```

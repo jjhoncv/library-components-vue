@@ -38,9 +38,11 @@
     "build:assets": "cpx \"./src/**/*.{png,jpg,gif,scss}\" ./dist",
     "build:json": "node ./scripts",
     "build": "run-s build:*",
-    "dist:publish":
+    "dist:publish-library":
       "git push origin :library && git subtree push --prefix dist origin library",
     "deploy": "build-storybook -c .storybook -o ./docs",
+    "dist:publish-web":
+      "git push origin :master && git subtree push --prefix docs origin master",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "precommit": "bash ./pre-commit.sh"
   },
