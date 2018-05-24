@@ -9,6 +9,7 @@
     "@storybook/addons": "^3.4.5",
     "@storybook/vue": "^3.4.5",
     "babel-core": "6.26.0",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
     "babel-preset-vue": "^2.0.2",
     "cpx": "^1.5.0",
     "eslint": "^4.19.1",
@@ -44,7 +45,12 @@
     "type": "git",
     "url": "git+https://github.com/jjhoncv/library-components-vue.git"
   },
-  "keywords": ["library", "componentes", "vue", "vue"],
+  "keywords": [
+    "library",
+    "componentes",
+    "vue",
+    "vue"
+  ],
   "author": "Jhonnatan Castro",
   "license": "ISC",
   "bugs": {

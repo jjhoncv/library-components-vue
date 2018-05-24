@@ -1,4 +1,4 @@
-import Table from './../../src/components/Table.vue';
+import Table from './../../src/components/Table';
 import { array, text, date } from '@storybook/addon-knobs';
 import { withDocs } from 'storybook-readme';
 import * as readme from './Table.default.md';

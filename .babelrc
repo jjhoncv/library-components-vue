@@ -7,5 +7,6 @@
       }
     ],
     "vue"
-  ]
+  ],
+  "plugins": ["dynamic-import-node"]
 }
