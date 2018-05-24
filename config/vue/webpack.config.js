@@ -6,10 +6,10 @@ const pathComponents = __dirname + './../../src/**/*.js';
 // const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: utils(glob.sync(pathComponents)),
+  entry: __dirname + './../../src/components/index.js',
   output: {
     path: path.resolve(__dirname, './../../dist'),
-    filename: '[name].js',
+    filename: 'library-ui.common.js',
     libraryTarget: 'umd'
   },
   module: {

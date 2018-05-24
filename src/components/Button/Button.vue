@@ -10,7 +10,6 @@ import VueTypes from "vue-types";
 const Button = {
   name: "Button",
   props: {
-    show: VueTypes.bool,
     className: VueTypes.oneOf([
       "btn-primary",
       "btn-default",
@@ -18,13 +17,7 @@ const Button = {
       "btn-info",
       "btn-success",
       "btn-warning"
-    ]),
-    value: VueTypes.string
-  },
-  methods: {
-    click() {
-      console.log("click");
-    }
+    ])
   }
 };
 
