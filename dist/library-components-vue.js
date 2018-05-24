@@ -1250,19 +1250,19 @@ var Table = {
 "use strict";
 
 
-var _Button = __webpack_require__(10);
+var _index = __webpack_require__(10);
 
-var _Button2 = _interopRequireDefault(_Button);
+var _index2 = _interopRequireDefault(_index);
 
-var _Table = __webpack_require__(20);
+var _index3 = __webpack_require__(20);
 
-var _Table2 = _interopRequireDefault(_Table);
+var _index4 = _interopRequireDefault(_index3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = {
-  Table: _Table2.default,
-  Button: _Button2.default
+  Table: _index4.default,
+  Button: _index2.default
 };
 
 /***/ }),
@@ -1282,7 +1282,7 @@ var _Button2 = _interopRequireDefault(_Button);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = { Button: _Button2.default };
+exports.default = _Button2.default;
 
 /***/ }),
 /* 11 */
@@ -9242,7 +9242,7 @@ var _Table2 = _interopRequireDefault(_Table);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = { Table: _Table2.default };
+exports.default = _Table2.default;
 
 /***/ }),
 /* 21 */
