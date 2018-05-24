@@ -9004,7 +9004,7 @@ function normalizeComponent (
 var Button = {
   name: "Button",
   props: {
-    className: __WEBPACK_IMPORTED_MODULE_0_vue_types___default.a.oneOf(["btn-primary", "btn-default", "btn-danger", "btn-info", "btn-success", "btn-warning"])
+    type: __WEBPACK_IMPORTED_MODULE_0_vue_types___default.a.oneOf(["primary", "default", "danger", "info", "success", "warning"])
   }
 };
 
@@ -9125,7 +9125,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.btn:hover {\n  opacity: 0.8;\n}\n.btn {\n  opacity: 1;\n  color: #606266;\n  border: 1px solid #606266;\n  padding: 10px 20px;\n  border-radius: 20px;\n  font-family: \"Trebuchet MS\";\n  font-size: 12px;\n  cursor: pointer;\n}\n.btn-primary {\n  color: white;\n  background: #409eff;\n  border: 1px solid #409eff;\n}\n.btn-success {\n  color: white;\n  background: #67c23a;\n  border: 1px solid #67c23a;\n}\n.btn-default {\n  color: #606266;\n  background: #fff;\n  border: 1px solid #dcdfe6;\n}\n.btn-info {\n  color: white;\n  background: #909399;\n  border: 1px solid #909399;\n}\n.btn-warning {\n  color: white;\n  background: #e6a23c;\n  border: 1px solid #e6a23c;\n}\n.btn-danger {\n  color: white;\n  background: #f56c6c;\n  border: 1px solid #f56c6c;\n}\n", ""]);
+exports.push([module.i, "\n.btn:hover {\n  opacity: 0.8;\n}\n.btn {\n  opacity: 1;\n  color: #606266;\n  border: 1px solid #606266;\n  padding: 10px 20px;\n  border-radius: 20px;\n  font-family: \"Trebuchet MS\";\n  font-size: 12px;\n  cursor: pointer;\n}\n.btn.primary {\n  color: white;\n  background: #409eff;\n  border: 1px solid #409eff;\n}\n.btn.success {\n  color: white;\n  background: #67c23a;\n  border: 1px solid #67c23a;\n}\n.btn.default {\n  color: #606266;\n  background: #fff;\n  border: 1px solid #dcdfe6;\n}\n.btn.info {\n  color: white;\n  background: #909399;\n  border: 1px solid #909399;\n}\n.btn.warning {\n  color: white;\n  background: #e6a23c;\n  border: 1px solid #e6a23c;\n}\n.btn.danger {\n  color: white;\n  background: #f56c6c;\n  border: 1px solid #f56c6c;\n}\n", ""]);
 
 // exports
 
@@ -9143,7 +9143,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "a",
-    { staticClass: "btn", class: _vm.className },
+    { staticClass: "btn", class: _vm.type },
     [_vm._t("default")],
     2
   )
