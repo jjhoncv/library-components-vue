@@ -11,7 +11,7 @@ module.exports = {
   entry: entry,
   output: {
     path: path.resolve(__dirname, './../../dist'),
-    filename: '[name].js',
+    filename: 'library-components-vue.js',
     libraryTarget: 'umd',
     library: 'library-components-vue'
   },
