@@ -35,7 +35,7 @@ const Table = {
   }
 };
 
-export { Table };
+export default Table;
 </script>
 
 <style>
