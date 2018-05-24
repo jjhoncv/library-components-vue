@@ -10,7 +10,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './../../dist'),
     filename: 'library-ui.common.js',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    library: 'library-components-vue'
   },
   module: {
     rules: [
