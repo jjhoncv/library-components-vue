@@ -28,7 +28,7 @@
   "name": "library-components-vue",
   "description": "library components vue",
   "version": "1.0.0",
-  "main": "./library-ui.commmon.js",
+  "main": "./library-components-vue.js",
   "scripts": {
     "storybook": "start-storybook -p 6006 -c .storybook",
     "test": "jest --notify --env=jsdom",

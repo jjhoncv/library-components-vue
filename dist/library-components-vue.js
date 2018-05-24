@@ -1250,10 +1250,6 @@ var Table = {
 "use strict";
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
 var _Button = __webpack_require__(10);
 
 var _Button2 = _interopRequireDefault(_Button);
@@ -1264,7 +1260,10 @@ var _Table2 = _interopRequireDefault(_Table);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = { Table: _Table2.default, Button: _Button2.default };
+module.exports = {
+  Table: _Table2.default,
+  Button: _Button2.default
+};
 
 /***/ }),
 /* 10 */
