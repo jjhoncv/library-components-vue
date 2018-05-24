@@ -19,7 +19,7 @@
 <script>
 import VueTypes from "vue-types";
 
-export default {
+const Table = {
   name: "Table",
   props: {
     data: Array,
@@ -34,6 +34,8 @@ export default {
     }
   }
 };
+
+export default Table;
 </script>
 
 <style>

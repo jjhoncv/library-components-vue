@@ -1,4 +1,4 @@
-import Button from './../../src/components/Button';
+import Button from './../../src/components/Button.vue';
 
 import { withDocs } from 'storybook-readme';
 import * as readme from './Button.default.md';

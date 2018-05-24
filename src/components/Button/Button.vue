@@ -7,7 +7,7 @@
 <script>
 import VueTypes from "vue-types";
 
-export default {
+const Button = {
   name: "Button",
   props: {
     show: VueTypes.bool,
@@ -27,6 +27,8 @@ export default {
     }
   }
 };
+
+export default Button;
 </script>
 
 <style>

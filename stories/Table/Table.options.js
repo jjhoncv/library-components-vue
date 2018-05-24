@@ -1,5 +1,5 @@
-import Table from './../../src/components/Table';
-import Button from './../../src/components/Button';
+import Table from './../../src/components/Table.vue';
+import Button from './../../src/components/Button.vue';
 import { array, text, date } from '@storybook/addon-knobs';
 import { withDocs } from 'storybook-readme';
 import * as readme from './Table.options.md';
