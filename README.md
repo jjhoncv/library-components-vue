@@ -28,7 +28,7 @@ yarn build
 5.  Una vez aprobado y mergeado tu Pull Request ejecuta los siguientes comandos:
 
 ```
-git checkout dev
-git pull origin dev
+git checkout master
+git pull origin master
 yarn dist:publish
 ```
