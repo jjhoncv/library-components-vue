@@ -46,7 +46,12 @@
     "type": "git",
     "url": "git+https://github.com/jjhoncv/library-components-vue.git"
   },
-  "keywords": ["library", "componentes", "vue", "vue"],
+  "keywords": [
+    "library",
+    "componentes",
+    "vue",
+    "vue"
+  ],
   "author": "Jhonnatan Castro",
   "license": "ISC",
   "bugs": {

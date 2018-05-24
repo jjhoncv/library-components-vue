@@ -21,7 +21,7 @@ const Button = {
   }
 };
 
-export default Button;
+export { Button };
 </script>
 
 <style>
