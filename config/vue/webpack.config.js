@@ -1,17 +1,15 @@
+const path = require('path');
 const glob = require('glob');
 const utils = require('./utils');
 
-const path = require('path');
-const pathComponents = __dirname + './../../src/components/**/*.js';
-const entry = utils(glob.sync(pathComponents));
-// const entry = __dirname + "./../../src/components/index.js";
-// const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const entry = utils(glob.sync(__dirname + './../../src/components/**/*.js'));
 
 module.exports = {
   entry: entry,
   output: {
     path: path.resolve(__dirname, './../../dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [

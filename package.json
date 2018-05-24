@@ -34,8 +34,8 @@
     "test": "jest --notify --env=jsdom",
     "prebuild": "rimraf dist",
     "build:library": "webpack --config ./config/vue/webpack.config.js",
-    "build:library:install": "cpx \"./src/index.js\"  ./dist",
-    "build:assets": "cpx \"./src/**/*.{png,jpg,gif,scss,js}\" ./dist",
+    "build:library-install": "cpx \"./src/index.js\"  ./dist",
+    "build:assets": "cpx \"./src/**/*.{png,jpg,gif,scss}\" ./dist",
     "build:json": "node ./scripts",
     "build": "run-s build:*",
     "dist:publish":
